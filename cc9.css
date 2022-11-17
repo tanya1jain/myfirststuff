@@ -1,0 +1,113 @@
+*{
+   padding: 0%;
+   margin: 0%;
+   box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+#main{
+   position: relative;
+    width: 100%;
+    background-color: #F6F6EE;
+}
+#nav{
+    background-color: #F6F6EE;
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5vw;
+}
+#aa{
+    display: flex;
+    gap: 40px;
+}
+#aa a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+#nav h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "gilroy";
+}
+#nav span{
+    font-weight: 900;
+}
+#text1{
+    height: 50vh;
+    width: 100%;
+    background-color: #F6F6EE;
+}
+#text{
+    width: 50%;
+    position: absolute;
+    top: 30vh;
+    left: 47%;
+    transform: translate(-50%,0%);
+    text-align: center;
+}
+#text h1{
+    font-size: 50px;
+    font-family: "Playfair Display";
+}
+#text p{
+    width: 70%;
+    font-size: 17px;
+    margin: 12px auto;
+}
+#text1 button{
+    padding: 6px 9px;
+    background-color: black;
+    color: #F6F6EE;
+    border-radius: 20px;
+}
+#img{
+    width: 100%;
+}
+#img img{
+    width: 100%;
+}
+#dec{
+    padding-top: 4vh;
+    padding-bottom: 22vh;
+    display: flex;
+    background-color: #F6F6EE;
+}
+#dleft{
+    position: relative;
+    text-align: right;
+    width: 50%;
+    font-family: "gilroy";
+    padding-right: 10px;
+    border-right: 2px solid black;
+
+}
+#dleft h1{
+    padding-left: 150px;
+    padding-bottom: 7px;
+}
+#dleft p{
+    margin-top: 10px;
+}
+#line{
+    height: 1.5px;
+    width: 25px;
+    background-color: black;
+    position: absolute;
+    margin-left: 92%;
+}
+#dright{
+    display: flex;
+    gap: 30px;
+    padding-left: 15px;
+}
+#dright #rtext h3{
+      margin-top: 7px;
+      margin-bottom: 7px;
+}
+
+
+
